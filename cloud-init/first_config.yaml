@@ -1,0 +1,17 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+#apt_upgrade: true
+
+packages:
+  - tmux
+  - vim
+
+users:
+  - default
+  - name: mael
+    groups: sudo
+    homedir: "/home/mael"
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: false
+    passwd: <hash_du_mot_de_passe>

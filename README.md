@@ -27,3 +27,11 @@ terraform plan
 terraform apply
 ```
 
+## Tri_alphab
+Un script python qui va trier par ordre alphabétique les lignes d'un fichier texte
+
+## Cloud-init
+first_config: un script Cloud-init à jouer à la création d'une VM pour y apporter quelques réglages perso
+
+
+
